@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            #cards {
+            background-color: #4483d6;
+            border-radius: 5px 5px 5px 5px;
+            border-color:rgba(9, 59, 12, 0.5);
+            box-shadow: 2px 4px 4px 0px;
+            margin:20px;
+            width: 250px;
+            color: rgb(14, 60, 158);
+            }
+
+            #princ{
+                width:100%;
+                height: fit-content;
+                background-color: rgb(21, 84, 114);
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
+            
+            body{
+                margin:0px;
+                padding: 0px;
+                
+
+            }
+
+            #head{
+                padding: 20px;
+                height: 40px;
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                border-bottom: 1px solid rgba(0, 0, 0, 0.6);
+            }
+            #body{
+                padding: 20px;
+                border-bottom: 1px solid rgba(0, 0, 0, 0.6);
+            }
+            #foot{
+                padding: 20px;
+                height: 30px;
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+            }
+            
+            
+            
+            @media screen and (max-width: 600px) {
+                 #cards{
+                    width: calc(100% - 42px);
+                 }
+                 
+            }@media screen and (min-width: 600px) {
+                 #cards{
+                    width: calc(50% - 42px);
+                 }
+                 
+            }
+            @media screen and (min-width: 1000px) {
+                 #cards{
+                    width: calc(33% - 42px);
+                 }
+                 
+            }
+            @media screen and (min-width: 1400px) {
+                 #cards{
+                    width: calc(25% - 42px);
+                 }
+                 
+            }
+
+        </style>
+    </head>
+    <body>
+        <div id="princ">
+
+            <div id="cards">  
+                <div id="head">
+                    <p>
+                        TITULO
+                    </p>
+                </div>
+                <div id ="body">
+                </div>
+                <div id="foot">
+                    <button >
+                        1
+                    </button>
+                    <button >
+                        2
+                    </button>
+                    <button >
+                        3
+                    </button>
+                </div>
+            </div>
+
+            <div id="cards">  
+                <div id="head">
+                    <p>
+                        TITULO
+                    </p>
+                </div>
+                <div id ="body">
+                </div>
+                <div id="foot">
+                    <button >
+                        1
+                    </button>
+                    <button >
+                        2
+                    </button>
+                    <button >
+                        3
+                    </button>
+                </div>
+            </div>
+
+            <div id="cards">     
+                <div id="head">
+                    <p>
+                        TITULO
+                    </p>
+                </div>
+                <div id ="body">
+                </div>
+                <div id="foot">
+                    <button >
+                        1
+                    </button>
+                    <button >
+                        2
+                    </button>
+                    <button >
+                        3
+                    </button>
+                </div>
+            </div>
+
+            <div id="cards">  
+                <div id="head">
+                    <p>
+                        TITULO
+                    </p>
+                </div>
+                <div id ="body">
+                </div>
+                <div id="foot">
+                    <button >
+                        1
+                    </button>
+                    <button >
+                        2
+                    </button>
+                    <button >
+                        3
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </body>
+</html>
